@@ -1,0 +1,81 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  header nav ul {
+    list-style: none;
+  }
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #ff7f50;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  /* Resume and Bio-Data Styling */
+  .resume, .bio-data {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+  }
+  ul {
+    list-style: none;
+  }
+  ul li {
+    margin: 10px 0;
+  }
+  
+  /* Table styling for Bio-Data */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #f1f1f1;
+  }
